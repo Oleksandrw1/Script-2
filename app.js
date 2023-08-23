@@ -40,7 +40,7 @@ if (DataDepozity < 6) {
   profit = ((Sum * termDepozity) / 100 / 12) * DataDepozity;
 } else {
   termDepozity = 17;
-  profit = ((userSum * termDepozity) / 100 / 12) * DataDepozity;
+  profit = ((Sum * termDepozity) / 100 / 12) * DataDepozity;
 }
 
 alert(
